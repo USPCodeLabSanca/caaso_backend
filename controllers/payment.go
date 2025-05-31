@@ -17,20 +17,20 @@ type Plan struct {
 
 var amounts = map[string]map[string]float64{
 	models.Aloja.String(): {
-		models.Monthly.String(): 0.01,
-		models.Yearly.String():  0.01,
+		models.Monthly.String(): 2.00,
+		models.Yearly.String():  20.00,
 	},
 	models.Grad.String(): {
-		models.Monthly.String(): 0.01,
-		models.Yearly.String():  0.01,
+		models.Monthly.String(): 5.00,
+		models.Yearly.String():  45.00,
 	},
 	models.PostGrad.String(): {
-		models.Monthly.String(): 0.01,
-		models.Yearly.String():  0.01,
+		models.Monthly.String(): 8.00,
+		models.Yearly.String():  70.00,
 	},
 	models.Other.String(): {
-		models.Monthly.String(): 0.01,
-		models.Yearly.String():  0.01,
+		models.Monthly.String(): 15.00,
+		models.Yearly.String():  135.00,
 	},
 }
 
